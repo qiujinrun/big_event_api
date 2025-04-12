@@ -1,4 +1,5 @@
 //这一步看黑马解析，看看怎么弄个数据库
+//可以想想如何将MySQL转换成MongoDB
 const mysql = require('mysql');
 const db = mysql.createPool({
   host: 'localhost',
